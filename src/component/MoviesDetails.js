@@ -62,14 +62,14 @@ const MoviesDetails = () => {
                     xs="12"
                     sm="12"
                     className="mt-2 d-flex justify-content-center ">
-                    <Link to="/">
+                    <a href="/">
                         <button
                             style={{ backgroundColor: "#FBC02D", border: "none" }}
                             className="btn btn-primary mx-2">
                             عوده للرئيسيه
                         </button>
 
-                    </Link>
+                    </a>
                     <a href={movie.homepage} >
                         <button
                             style={{ backgroundColor: "#FF5722", border: "none" }}
